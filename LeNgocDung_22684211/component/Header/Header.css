@@ -33,7 +33,7 @@
 
 .nav-links {
     /* display: flex;*/
-    gap: 5px; 
+    /* gap: 5px;  */
 }
 
 .nav-links a {
@@ -70,11 +70,11 @@
     /* Màu tối hơn khi hover */
 }
 
-.profile-image {
+/* .profile-image {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-}
+} */
 /* .navbar img {
     width: 40px;
     height: 40px;
