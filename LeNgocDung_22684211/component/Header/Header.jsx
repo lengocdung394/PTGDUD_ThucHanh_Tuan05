@@ -21,7 +21,7 @@ export default function Header() {
                 </nav>
                 <div className="flex items-center">
                     <button class="profile-button">My Recipe Box</button>
-                    <img src="../../image/image.png" className='w-10 h-10 rounded-3xl' alt="User Profile" class="profile-image"/>
+                    <img src="../../image/image.png" className='w-10 h-10 rounded-3xl'/>
                 </div>
             </header>
         </>
