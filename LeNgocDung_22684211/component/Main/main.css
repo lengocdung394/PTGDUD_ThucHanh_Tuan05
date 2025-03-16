@@ -1,7 +1,7 @@
-#content {
+/* #content {
     display: flex;
     gap: 20px;
-}
+} */
 
 /* h2 {
     width: 100%;
@@ -44,6 +44,7 @@ h4{
     /* Sắp xếp theo chiều dọc */
     gap: 40px;
     width: 90%;
+    margin-left: 50px;
     margin-bottom: 50px;
     justify-content: center;
 }
@@ -119,7 +120,7 @@ h4{
     border-radius: 4px;
 } */
 
-#color{
+/* #color{
     color: #FF4081;
     background-color: #f7cedb;
-}
+} */

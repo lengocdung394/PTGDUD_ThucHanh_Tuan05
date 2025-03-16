@@ -27,14 +27,14 @@ var style ={
         <div id='main'>
             <div id='menu-item' className='mt-1.5'>
                 <ul className=' p-0 flex'>
-                    <li className='mt-5'>Home</li>
+                    <li className='mt-5 mr-1.5'>Home</li>
                     <li className= 'mt-5 text-pink-500'>Your Recipe Box</li>
                 </ul>
             </div>
-            <div className='m-1.5'>
-                <h2 className='font-medium text-2xl'>Emma Gonzale's Recipe Box </h2>
+            <div className='mt-1.5'>
+                <h2 className='font-medium text-2xl p-0 m-0'>Emma Gonzale's Recipe Box </h2>
             </div>
-            <div id='content'>
+            <div id='content' className='flex'>
 
                 <div id='left' className='w-40 h-40'> < img src="../../image/pandas.png" alt="" className='w-40 h-40 rounded-3xl max-w-none' /></div>
                 <div id='right'>
@@ -42,7 +42,7 @@ var style ={
                         <p className='text-justify'>Emma Gonzalez is a deputy editor at Chefity, bringing her expertise as a former cooking editor at The Los Angeles Times She is also an accomplished author, contributing to numerous cookbooks and food publications. Originally from East Los Angeles, Emma now resides in New York City, where she explores a wide range of culinary delights.</p>
                     </div>
                     <div>
-                        <button>6.5 Subscribe</button>
+                        <button className='text-white rounded-1xl m-2 bg-amber-600 w-27 p-1.5 rounded '>6.5 Subscribe</button>
                         <button id='share' className='text-teal-100 rounded-1xl m-5 bg-pink-500 w-19 p-1.5 rounded '>Share</button>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ var style ={
 
             <div id='menu-food'className='mt-4'>
                 <ul className='flex gap-1 border-b-1'>
-                    <li className='p-2 mr-1 rounded' id='color'>Saved Recipes</li>
+                    <li className='p-2 mr-1 rounded text-pink-500 bg-pink-200'>Saved Recipes</li>
                     <li  className='p-2 mr-1'>Folders</li>
                     <li  className='p-2 mr-1'>Recipes by Genevieve</li>
                 </ul>
@@ -61,7 +61,7 @@ var style ={
                 <div id="recipe-list">
                     <ul  className='flex flex-wrap' >
                         {recipes.map(recipe => (
-                            <li className='m-6.5 list-none' key={recipe.id.object}>
+                            <li className='m-7 list-none' key={recipe.id.object}>
                                 <div className='recipe-card border rounded-xl'>
                                     <img className= 'w-52 h-32 rounded-t-xl rounded-b-none' src={recipe.image} alt={recipe.title} />
                                     <h4 className='font-bold m-1'>{recipe.title}</h4>
