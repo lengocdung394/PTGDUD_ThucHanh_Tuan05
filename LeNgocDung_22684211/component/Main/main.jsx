@@ -61,7 +61,7 @@ var style ={
                 <div id="recipe-list">
                     <ul  className='flex flex-wrap' >
                         {recipes.map(recipe => (
-                            <li className='m-7 list-none' key={recipe.id.object}>
+                            <li className='m-7 list-none' key={recipe.id}>
                                 <div className='recipe-card border rounded-xl'>
                                     <img className= 'w-52 h-32 rounded-t-xl rounded-b-none' src={recipe.image} alt={recipe.title} />
                                     <h4 className='font-bold m-1'>{recipe.title}</h4>
